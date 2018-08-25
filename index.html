@@ -1,0 +1,178 @@
+<!-- 
+ * By
+ * Sandeep Pokhrel
+ * Random Name Picker
+ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Name Picker</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/namepicker.css">
+	<script type="text/javascript" src="./js/namePicker.js"></script>
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="wrapper">
+					<img src="./img/nepathya-logo.jpg" width="20%;">
+					<h1 class="blue-text" align="center">Name Picker</h1>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="form-group">
+					<h4 style="margin-top: 5px;">Questions</h4>
+				    <hr>
+				    <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck1" onclick="displayQuestion(1);">
+				     		 <label class="custom-control-label" for="customCheck1">1</label>
+				     </div>
+
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck2" onclick="displayQuestion(2);">
+				     		 <label class="custom-control-label" for="customCheck2">2</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck3" onclick="displayQuestion(3);">
+				     		 <label class="custom-control-label" for="customCheck3">3</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck4" onclick="displayQuestion(4);">
+				     		 <label class="custom-control-label" for="customCheck4">4</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck5" onclick="displayQuestion(5);">
+				     		 <label class="custom-control-label" for="customCheck5">5</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck6" onclick="displayQuestion(6);">
+				     		 <label class="custom-control-label" for="customCheck6">6</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck7" onclick="displayQuestion(7);">
+				     		 <label class="custom-control-label" for="customCheck7">7</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck8" onclick="displayQuestion(8);">
+				     		 <label class="custom-control-label" for="customCheck8">8</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck9" onclick="displayQuestion(9);">
+				     		 <label class="custom-control-label" for="customCheck9">9</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck10" onclick="displayQuestion(10);">
+				     		 <label class="custom-control-label" for="customCheck10">10</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck11" onclick="displayQuestion(11);">
+				     		 <label class="custom-control-label" for="customCheck11">11</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck12" onclick="displayQuestion(12);">
+				     		 <label class="custom-control-label" for="customCheck12">12</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck13" onclick="displayQuestion(13);">
+				     		 <label class="custom-control-label" for="customCheck13">13</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck14" onclick="displayQuestion(14);">
+				     		 <label class="custom-control-label" for="customCheck14">14</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck15" onclick="displayQuestion(15);">
+				     		 <label class="custom-control-label" for="customCheck15">15</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck16" onclick="displayQuestion(16);">
+				     		 <label class="custom-control-label" for="customCheck16">16</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck17" onclick="displayQuestion(17);">
+				     		 <label class="custom-control-label" for="customCheck17">17</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck18" onclick="displayQuestion(18);">
+				     		 <label class="custom-control-label" for="customCheck18">18</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck19" onclick="displayQuestion(19);">
+				     		 <label class="custom-control-label" for="customCheck19">19</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck20" onclick="displayQuestion(20);">
+				     		 <label class="custom-control-label" for="customCheck20">20</label>
+				     </div>
+				     <div class="custom-control custom-checkbox left">
+				    	<input type="checkbox" class="custom-control-input" id="customCheck21" onclick="displayQuestion(21);">
+				     		 <label class="custom-control-label" for="customCheck21">Chocolate Question</label>
+				     </div>
+				     
+				     <br><br>
+
+				    
+			</div>
+		</div>
+			
+			<div class="col-md-8">
+				
+				<hr>
+				<div class="wrapper">
+					<button type="button" class="btn btn-primary btn-size" onclick="randomParticipant()">Select</button>
+					<h1 id="display-participant" class="margin_top"></h1>
+					<h2 id="display-question"></h2>
+					<button type="button" class="btn btn-success btn-size" onclick="displayAns()">Ans</button>
+					<h2 id="ans" style="color: red"></h2>
+				</div>
+			</div>
+			<div class="col-md-4">
+				 <p id="all-participants"></p>
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<form id="file-form">
+            		<label class="btn btn-primary" for="my-file-selector">
+             			<input id="my-file-selector" type="file" style="display:none;" onchange="$('#upload-file-info').html($(this).val()); getFile(this.files);" />Choose File
+              		</label>
+              		<!-- <a class="help" onclick="openModal('helpModal')" href="#">Help</a> -->
+              	<span class='label label-info' id="upload-file-info"></span>
+          		</form>
+			</div>
+			<!-- <div id="helpModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('helpModal')">&times;</span>
+        <h3>Help</h3>
+        <p>To use the winner randomizer, upload a CSV file that contains one column with
+        the names for the winner(s) to be chosen from.</p>
+        <p>When a winner is selected, they cannot be chosen another time.</p>
+        <p>Previously selected winners will be displayed at the bottom of the page.</p>
+      </div>
+    </div> -->
+
+			<div id="errorModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('errorModal')">&times;</span>
+        <h3>ERROR</h3>
+        <p>Missing file with possible winner names. Please upload a file and try again.</p>
+      </div>
+    </div>
+
+    <div id="emptyList" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('emptyList')">&times;</span>
+        <h3>ERROR</h3>
+        <p>Everyone has already won. Upload a new file to randomize more winners.</p>
+      </div>
+    </div>
+
+		</div>
+	</div>
+</body>
+</html>
